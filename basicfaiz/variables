@@ -1,0 +1,34 @@
+
+const accountId = 6969696969
+console.log(accountId);
+
+// accountId =3333333
+
+let  accountEmail ="faizahmed0094@gmail.com"
+var  accountPassword ="999666999966666"
+cityname  = "Rawalpindi"
+let stateName;
+
+accountEmail ="ahmedmfaiz@9"
+accountPassword ="1234567"
+cityname = "Islamabad"
+stateName ="China"
+
+console.table([accountId, accountEmail, accountPassword, cityname, stateName])
+/*Lecture No.4 (LET CONST VAR)
+Creating a variable means a creation of space in the memory where we may store some data. In this we create variable and then store data in it. 
+
+i.	Const accountID = 123456 {Its value cannot be changed once assigned. Recommended for use while programming}
+
+ii.	Let accountEmail = faizahemed@avc.com {Its value may also be changed when required. Recommended for use while programming.}
+
+iii.	Var accountPassword = “222222” {Its values changed but not recommended due to block scope and functional scope.}
+
+iv.	Cityname = “Rawalpindi” {Its also not recommended. But we may also change value in it.}
+
+ We may also create a variable without assigning value to it like.
+
+v.	Let statename;
+
+Its output should be undefined when we print it on screen. 
+*/
